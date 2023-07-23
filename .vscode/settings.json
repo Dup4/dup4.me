@@ -13,6 +13,7 @@
     "antfu",
     "nuxi",
     "Nuxt",
-    "unocss"
-  ]
+    "unocss",
+    "Vite"
+]
 }
