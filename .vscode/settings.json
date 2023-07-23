@@ -1,16 +1,16 @@
 {
-    "prettier.enable": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "files.associations": {
-        "*.css": "postcss"
-    },
-    "editor.formatOnSave": false,
-    "cSpell.words": [
-        "antfu",
-        "nuxi",
-        "Nuxt",
-        "unocss"
-    ]
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "antfu",
+    "nuxi",
+    "Nuxt",
+    "unocss"
+  ]
 }
