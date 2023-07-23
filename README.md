@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./public/nuxt.svg" width="600"/>
+<img src="./public/nuxt.svg" width="240"/>
 </p>
 
 <h2 align="center">
