@@ -47,6 +47,9 @@ devDependencies:
   pinia:
     specifier: ^2.1.4
     version: 2.1.4(typescript@5.1.6)(vue@3.3.4)
+  pnpm:
+    specifier: ^8.6.8
+    version: 8.6.8
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -7977,6 +7980,12 @@ packages:
   /pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
+    dev: true
+
+  /pnpm@8.6.8:
+    resolution: {integrity: sha512-OtrCRUE7VqRyKly9E3gfExZHOAHtFDpmulyVFKrnl3v/n2xJckdueVumWJqUA5FHxcRP/T42r8P8CDr9duPP9w==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: true
 
   /postcss-calc@9.0.1(postcss@8.4.24):
