@@ -6,10 +6,14 @@
 dup4.me
 </h2>
 
+<div align="center">
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af6f3c22-89be-4244-842b-66bd3a0dc034/deploy-status)](https://app.netlify.com/sites/dup4/deploys)
 [![Test](https://github.com/xcpcio/xcpcio/actions/workflows/test.yml/badge.svg)](https://github.com/xcpcio/xcpcio/actions/workflows/test.yml)
 [![GitHub release][gh-release-badge]][gh-release]
 [![License][license-image-mit]](https://mit-license.org/)
+
+</div>
 
 <br>
 
