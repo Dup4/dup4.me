@@ -4,7 +4,6 @@ import { githubRepoUrl } from '~/constants'
 
 <template>
   <div text="xl gray4" m-5 flex="~ gap3" justify-center>
-    <NuxtLink i-carbon-campsite to="/" />
     <a i-carbon-logo-github :href="githubRepoUrl" target="_blank" />
     <DarkToggle />
   </div>

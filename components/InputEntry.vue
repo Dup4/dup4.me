@@ -24,7 +24,7 @@ function go() {
     <div>
       <button
         m-3 text-sm btn
-        :disabled="!name"
+        :disabled="name.length === 0"
         @click="go"
       >
         GO
