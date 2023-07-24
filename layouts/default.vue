@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import Footer from '~/components/Footer.vue'
+import NavBar from '~/components/NavBar.vue'
 </script>
 
 <template>
-  <main class="min-h-screen px-10 py-20 text-center">
+  <NavBar />
+  <main class="px-10 py-20 text-center">
     <slot />
-    <div class="">
+    <!-- <div class="">
       <Footer />
-    </div>
+    </div> -->
   </main>
 </template>
