@@ -18,6 +18,7 @@ const { y: scroll } = useWindowScroll()
     >
       <Logo />
     </NuxtLink>
+
     <button
       title="Scroll to top"
 
@@ -27,6 +28,7 @@ const { y: scroll } = useWindowScroll()
     >
       <div i-ri-arrow-up-line />
     </button>
+
     <nav class="nav">
       <div class="spacer" />
       <div class="right" print:op0>
