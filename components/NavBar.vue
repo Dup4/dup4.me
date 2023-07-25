@@ -54,7 +54,7 @@ const { y: scroll } = useWindowScroll()
         <NuxtLink to="/sponsors-list" title="Sponsors">
           <div i-ri-user-heart-line />
         </NuxtLink> -->
-        <a href="https://twitter.com/Dup4" target="_blank" title="Twitter" class="lt-md:hidden">
+        <a href="https://twitter.com/panlyuzhi" target="_blank" title="Twitter" class="lt-md:hidden">
           <div i-teenyicons-twitter-outline />
         </a>
         <a href="https://github.com/Dup4" target="_blank" title="GitHub" class="lt-md:hidden">
