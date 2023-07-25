@@ -8,7 +8,7 @@ watchEffect(() => {
 })
 
 definePageMeta({
-  layout: 'home',
+  layout: 'default',
 })
 </script>
 
@@ -36,14 +36,6 @@ definePageMeta({
     </template>
 
     <Counter />
-
-    <div>
-      <NuxtLink
-        class="m-3 text-sm btn"
-        to="/"
-      >
-        Back
-      </NuxtLink>
-    </div>
+    <GoBack />
   </div>
 </template>

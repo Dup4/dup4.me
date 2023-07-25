@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const router = useRouter()
 </script>
 
 <template>
@@ -8,10 +7,6 @@ const router = useRouter()
       <div i-carbon-warning inline-block />
     </div>
     <div>Not found</div>
-    <div>
-      <button text-sm btn m="3 t8" @click="router.back()">
-        Back
-      </button>
-    </div>
+    <GoBack />
   </main>
 </template>
