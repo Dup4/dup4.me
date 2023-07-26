@@ -18,20 +18,20 @@ async function toggleLocales() {
       <div i-carbon-campsite />
     </RouterLink>
 
-    <button icon-btn :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
+    <RouterLink icon-btn to="/about" :title="t('button.about')" data-test-id="about">
+      <div i-carbon-dicom-overlay />
+    </RouterLink>
+
+    <a href="https://github.com/Dup4" target="_blank" title="GitHub" class="lt-md:hidden">
+      <div i-carbon-logo-github />
+    </a>
 
     <a icon-btn :title="t('button.toggle_langs')" @click="toggleLocales()">
       <div i-carbon-language />
     </a>
 
-    <RouterLink icon-btn to="/about" :title="t('button.about')" data-test-id="about">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
+    <button icon-btn :title="t('button.toggle_dark')" @click="toggleDark()">
+      <div i="carbon-sun dark:carbon-moon" />
+    </button>
   </nav>
 </template>
