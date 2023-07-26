@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
+    '@nuxt/content',
   ],
 
   experimental: {
@@ -18,6 +19,13 @@ export default defineNuxtConfig({
     renderJsonPayloads: true,
     typedPages: true,
   },
+
+  components: [
+    {
+      path: '~/components',
+      extensions: ['.vue'],
+    },
+  ],
 
   css: [
     '@unocss/reset/tailwind.css',
